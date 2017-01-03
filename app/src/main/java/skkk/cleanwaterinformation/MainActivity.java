@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
 
 
-        String[] TITLE={"微信科技","凤凰科技","IT之家","虎嗅网","泡泡网","品玩网","硅谷密探","Python","JavaScript"};
+        String[] TITLE={"微信科技","凤凰科技","IT之家","虎嗅网","泡泡网","品玩网","硅谷密探","Python","JavaScript","微信程序员订阅"};
         tlHome.setupWithViewPager(vpHome);
 
         List<Fragment> fragmentList = new ArrayList<Fragment>();
@@ -93,6 +93,7 @@ public class MainActivity extends AppCompatActivity
         fragmentList.add(new BaseFragment("GGBean"));
         fragmentList.add(new BaseFragment("PythonBean"));
         fragmentList.add(new BaseFragment("JSBean"));
+        fragmentList.add(new BaseFragment("WXBookBean"));
 
         MyPagerAdapter adapter = new MyPagerAdapter(getSupportFragmentManager(), fragmentList, TITLE);
 
