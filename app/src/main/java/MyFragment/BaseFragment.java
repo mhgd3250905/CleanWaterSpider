@@ -175,7 +175,8 @@ public class BaseFragment extends Fragment implements BGARefreshLayout.BGARefres
             public void onItemClick(View view, int position) {
                 Intent itemIntent=new Intent();
                 itemIntent.putExtra("url",mDataList.get(position).getContentURL());
-                itemIntent.putExtra("title",mDataList.get(position).getTitle());
+                itemIntent.putExtra("title",mDataList.get(position).getTitle()
+                        .replace("\uE40B"," ").replace("\uE40A"," "));
                 itemIntent.setClass(getContext(), WebActivity.class);
                 startActivity(itemIntent);
             }

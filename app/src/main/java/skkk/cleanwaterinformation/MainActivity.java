@@ -79,12 +79,12 @@ public class MainActivity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
 
 
-        String[] TITLE={"微信科技","凤凰科技","IT之家","虎嗅网","泡泡网","品玩网","硅谷密探","Python","JavaScript","微信程序员订阅"};
+        String[] TITLE={/*"微信科技",*/"凤凰科技","IT之家","虎嗅网","泡泡网","品玩网","硅谷密探","Python","JavaScript","微信程序员订阅"};
         tlHome.setupWithViewPager(vpHome);
 
         List<Fragment> fragmentList = new ArrayList<Fragment>();
 
-        fragmentList.add(new BaseFragment("WeixinBean"));
+//        fragmentList.add(new BaseFragment("WeixinBean"));
         fragmentList.add(new BaseFragment("FHBean"));
         fragmentList.add(new BaseFragment("ITBean"));
         fragmentList.add(new BaseFragment("HXBean"));

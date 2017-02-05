@@ -42,7 +42,6 @@ public class BaseAdapter extends RecyclerViewBaseAdapter<BaseBean> {
 
         holder.tvItem.setText(mItemDataList.get(i).getTitle().replace("\uE40B"," ").replace("\uE40A"," "));
 
-
         if (!TextUtils.isEmpty(mItemDataList.get(i).getImgSrc())) {
             Glide.with(context)
                     .load(mItemDataList.get(i).getImgSrc())
