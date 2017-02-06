@@ -1,5 +1,6 @@
 package MyFragment;
 
+import DataBean.BaozouGsonBean;
 import DataBean.BaseGsonBean;
 import retrofit2.http.GET;
 import retrofit2.http.Headers;
@@ -28,6 +29,14 @@ public interface WebService {
     Observable<BaseGsonBean> getHXGsonData(@Path("tableName")String tableName,
                                            @Query("limit")String limit, @Query("skip") String skip,
                                            @Query("order")String order);
+
+    //获取暴走日报首页内容
+    @GET("http://dailyapi.ibaozou.com/api/v31/documents/latest")
+    Observable<BaozouGsonBean> getBaozouGsonBean();
+
+    //获取暴走日报首页内容
+    @GET("http://dailyapi.ibaozou.com/api/v31/documents/latest")
+    Observable<BaozouGsonBean> getNextBaozouGsonBean(@Query("timestamp")int timestamp);
 
 
 }

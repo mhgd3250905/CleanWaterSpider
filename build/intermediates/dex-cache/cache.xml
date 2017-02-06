@@ -52,7 +52,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="633fc8139c5b291346404349544210cc3cd590d4">
+        sha1="9e50b7f6dbc8b110f533f5eee2eb36d36005b7ab">
         <dex dex="G:\GIT\CleanWaterSpider\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_be45cdb8e83f45df5c59a10773f4154360f73f2e\classes.dex" />
     </item>
     <item
@@ -286,7 +286,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="4aa348d0693f4049cbd870f100c8fb92cfd9153d">
+        sha1="ead3b956138fa25fd8a5073f0592fea2879aed18">
         <dex dex="G:\GIT\CleanWaterSpider\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_d9bac324354bbf1e4b3f2f0901588cdad501dda9\classes.dex" />
     </item>
     <item

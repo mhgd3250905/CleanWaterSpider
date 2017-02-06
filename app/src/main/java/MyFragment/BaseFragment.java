@@ -17,9 +17,8 @@ import java.util.List;
 
 import Adapter.BaseAdapter;
 import Adapter.RecyclerViewBaseAdapter;
-import DataBean.BaseGsonBean;
 import DataBean.BaseBean;
-import MyUtils.LogUtils;
+import DataBean.BaseGsonBean;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import cn.bingoogolapple.refreshlayout.BGANormalRefreshViewHolder;
@@ -155,8 +154,7 @@ public class BaseFragment extends Fragment implements BGARefreshLayout.BGARefres
 
         service = retrofit.create(WebService.class);
 
-
-        insertHXData(service);
+        mRefreshLayout.beginRefreshing();
 
     }
 
@@ -168,7 +166,6 @@ public class BaseFragment extends Fragment implements BGARefreshLayout.BGARefres
     * @返回值
     */
     private void initEvent() {
-        mRefreshLayout.beginRefreshing();
 
         adapter.setOnItemClickLitener(new RecyclerViewBaseAdapter.OnItemClickLitener() {
             @Override
@@ -199,7 +196,7 @@ public class BaseFragment extends Fragment implements BGARefreshLayout.BGARefres
                         List<BaseBean> responses=new ArrayList<BaseBean>();
                         for (BaseGsonBean.ResultsBean resultsBean:results){
 
-                            LogUtils.Log(resultsBean.getTitle());
+//                            LogUtils.Log(resultsBean.getTitle());
 
                             BaseBean baseBean =new BaseBean();
                             baseBean.setTitle(resultsBean.getTitle());
@@ -214,7 +211,7 @@ public class BaseFragment extends Fragment implements BGARefreshLayout.BGARefres
                 .subscribe(new Subscriber<List<BaseBean>>() {
                     @Override
                     public void onCompleted() {
-                        LogUtils.Log("completed");
+//                        LogUtils.Log("completed");
                         mRefreshLayout.endRefreshing();
                         mRefreshLayout.endLoadingMore();
 //                        if (rvData.isRefresh()) {
@@ -229,7 +226,7 @@ public class BaseFragment extends Fragment implements BGARefreshLayout.BGARefres
 
                     @Override
                     public void onNext(List<BaseBean> huXiuList) {
-                        LogUtils.Log(huXiuList.size()+"");
+//                        LogUtils.Log(huXiuList.size()+"");
                         adapter.append(huXiuList);
                     }
                 });
