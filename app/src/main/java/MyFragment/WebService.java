@@ -1,6 +1,7 @@
 package MyFragment;
 
 import DataBean.BaozouGsonBean;
+import DataBean.BaozouVideoGsonBean;
 import DataBean.BaseGsonBean;
 import retrofit2.http.GET;
 import retrofit2.http.Headers;
@@ -31,12 +32,19 @@ public interface WebService {
                                            @Query("order")String order);
 
     //获取暴走日报首页内容
-    @GET("http://dailyapi.ibaozou.com/api/v31/documents/latest")
+    @GET("api/v31/documents/latest")
     Observable<BaozouGsonBean> getBaozouGsonBean();
 
     //获取暴走日报首页内容
-    @GET("http://dailyapi.ibaozou.com/api/v31/documents/latest")
+    @GET("api/v31/documents/latest")
     Observable<BaozouGsonBean> getNextBaozouGsonBean(@Query("timestamp")int timestamp);
 
+    //获取暴走日报视频内容
+    @GET("api/v31/documents/videos/latest")
+    Observable<BaozouVideoGsonBean> getBaozouVideoGsonBean();
+
+    //获取暴走日报首页内容
+    @GET("api/v31/documents/videos/latest")
+    Observable<BaozouVideoGsonBean> getNextBaozouVideoGsonBean(@Query("timestamp")int timestamp);
 
 }

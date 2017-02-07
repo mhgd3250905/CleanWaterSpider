@@ -12,6 +12,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\admin\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="G:\GIT\CleanWaterSpider\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-7.0.1_b166c6acd2be2eb9315008c1cf987d5f0c122f6f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="G:\GIT\CleanWaterSpider\app\build\intermediates\exploded-aar\io.reactivex\rxandroid\1.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -39,6 +48,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="G:\GIT\CleanWaterSpider\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="G:\GIT\CleanWaterSpider\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.0_5de15f1ced69d308dce74166cbedfc10961ed932\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="E:\SDK\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
         jumboMode="true"
         optimize="true"
@@ -48,12 +66,48 @@
     </item>
     <item
         is-multidex="true"
+        jar="G:\GIT\CleanWaterSpider\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="G:\GIT\CleanWaterSpider\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.0_76673eaefa0fa920e70316a7a49d9eff6f54fb72\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="G:\GIT\CleanWaterSpider\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="9e50b7f6dbc8b110f533f5eee2eb36d36005b7ab">
+        sha1="23633bbd7961f971f790fb0c3c47e5bc5ca8255d">
         <dex dex="G:\GIT\CleanWaterSpider\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_be45cdb8e83f45df5c59a10773f4154360f73f2e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="G:\GIT\CleanWaterSpider\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="G:\GIT\CleanWaterSpider\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_fdcd0fe080782ea76cc1146c7c0b3b99fc24e501\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\admin\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.6.1\b9d63507329a7178e026fc334f87587ee5070ac5\gson-2.6.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9d63507329a7178e026fc334f87587ee5070ac5">
+        <dex dex="G:\GIT\CleanWaterSpider\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.6.1_f5fa6a90b76fbf6a3bb432959cae6a92a1d6a282\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="G:\GIT\CleanWaterSpider\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="G:\GIT\CleanWaterSpider\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_c8589dbdb5e73867336655b4cec0702adc2cc8b4\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -93,12 +147,39 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\admin\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="G:\GIT\CleanWaterSpider\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.7.0_dc2cedaf25df8c5e199ffaaa969663929f0fc4fc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="G:\GIT\CleanWaterSpider\app\build\intermediates\exploded-aar\cn.bingoogolapple\bga-refreshlayout\1.1.7\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="e53517cd5071ca1e42548f05322ad87461098b58">
         <dex dex="G:\GIT\CleanWaterSpider\app\build\intermediates\transforms\dex\debug\folders\1000\10\cn.bingoogolapple-bga-refreshlayout-1.1.7_35bf71f0a33fb0cc6be586f6250c343ae038d054\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\admin\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="G:\GIT\CleanWaterSpider\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.8.0_9752e5d938ef575fd57431bb8423446747838c0f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="G:\GIT\CleanWaterSpider\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
+        <dex dex="G:\GIT\CleanWaterSpider\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.0.0_4f283fb712c21e5f2d421a4332761d3d62f88af4\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -138,132 +219,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\admin\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\adapter-rxjava\2.0.2\a60c039ba54c73d1133b72178e1b04133c73d13d\adapter-rxjava-2.0.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a60c039ba54c73d1133b72178e1b04133c73d13d">
-        <dex dex="G:\GIT\CleanWaterSpider\app\build\intermediates\transforms\dex\debug\folders\1000\10\adapter-rxjava-2.0.2_29a54fe51d9c4116a96453e17c4a21b5a02dab3f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="G:\GIT\CleanWaterSpider\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
-        <dex dex="G:\GIT\CleanWaterSpider\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.0_0be5365362a8043fbdd312813e3d8814ca2cbb6e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="G:\GIT\CleanWaterSpider\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
-        <dex dex="G:\GIT\CleanWaterSpider\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_6f09b608e7d078bed44f43248ce2e6ba4e57d35d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\admin\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.0.2\43eeae0b9fb087bb3194ba59ab63a38a32fbf3e\retrofit-2.0.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="043eeae0b9fb087bb3194ba59ab63a38a32fbf3e">
-        <dex dex="G:\GIT\CleanWaterSpider\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.0.2_bd46ebbcef47551901d52312d85c31492ddb7759\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="G:\GIT\CleanWaterSpider\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
-        <dex dex="G:\GIT\CleanWaterSpider\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.0_9450e4c2669fe49191199f32758bb96afb2a0575\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\admin\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
-        <dex dex="G:\GIT\CleanWaterSpider\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-7.0.1_b166c6acd2be2eb9315008c1cf987d5f0c122f6f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="G:\GIT\CleanWaterSpider\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
-        <dex dex="G:\GIT\CleanWaterSpider\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.0_5de15f1ced69d308dce74166cbedfc10961ed932\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="G:\GIT\CleanWaterSpider\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
-        <dex dex="G:\GIT\CleanWaterSpider\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.0_76673eaefa0fa920e70316a7a49d9eff6f54fb72\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="G:\GIT\CleanWaterSpider\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
-        <dex dex="G:\GIT\CleanWaterSpider\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_fdcd0fe080782ea76cc1146c7c0b3b99fc24e501\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\admin\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.6.1\b9d63507329a7178e026fc334f87587ee5070ac5\gson-2.6.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b9d63507329a7178e026fc334f87587ee5070ac5">
-        <dex dex="G:\GIT\CleanWaterSpider\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.6.1_f5fa6a90b76fbf6a3bb432959cae6a92a1d6a282\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="G:\GIT\CleanWaterSpider\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
-        <dex dex="G:\GIT\CleanWaterSpider\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_c8589dbdb5e73867336655b4cec0702adc2cc8b4\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\admin\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
-        <dex dex="G:\GIT\CleanWaterSpider\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.7.0_dc2cedaf25df8c5e199ffaaa969663929f0fc4fc\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\admin\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
-        <dex dex="G:\GIT\CleanWaterSpider\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.8.0_9752e5d938ef575fd57431bb8423446747838c0f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="G:\GIT\CleanWaterSpider\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
-        <dex dex="G:\GIT\CleanWaterSpider\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.0.0_4f283fb712c21e5f2d421a4332761d3d62f88af4\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="G:\GIT\CleanWaterSpider\app\libs\org.apache.http.legacy.jar"
         jumboMode="true"
         optimize="true"
@@ -286,8 +241,26 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="ead3b956138fa25fd8a5073f0592fea2879aed18">
+        sha1="ac341c82029d356e273c91aff891066c09174014">
         <dex dex="G:\GIT\CleanWaterSpider\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_d9bac324354bbf1e4b3f2f0901588cdad501dda9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\admin\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\adapter-rxjava\2.0.2\a60c039ba54c73d1133b72178e1b04133c73d13d\adapter-rxjava-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a60c039ba54c73d1133b72178e1b04133c73d13d">
+        <dex dex="G:\GIT\CleanWaterSpider\app\build\intermediates\transforms\dex\debug\folders\1000\10\adapter-rxjava-2.0.2_29a54fe51d9c4116a96453e17c4a21b5a02dab3f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="G:\GIT\CleanWaterSpider\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="G:\GIT\CleanWaterSpider\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.0_0be5365362a8043fbdd312813e3d8814ca2cbb6e\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -297,6 +270,24 @@
         revision="25.0.0"
         sha1="f1bc476cc167b18e66c297df599b2377131a8947">
         <dex dex="G:\GIT\CleanWaterSpider\app\build\intermediates\transforms\dex\debug\folders\1000\2\gson-2.6.2_7046557f6811dcb0bd3a6554bc1d13c905ef60fe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="G:\GIT\CleanWaterSpider\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="G:\GIT\CleanWaterSpider\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_6f09b608e7d078bed44f43248ce2e6ba4e57d35d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\admin\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.0.2\43eeae0b9fb087bb3194ba59ab63a38a32fbf3e\retrofit-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="043eeae0b9fb087bb3194ba59ab63a38a32fbf3e">
+        <dex dex="G:\GIT\CleanWaterSpider\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.0.2_bd46ebbcef47551901d52312d85c31492ddb7759\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -315,6 +306,15 @@
         revision="25.0.0"
         sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
         <dex dex="G:\GIT\CleanWaterSpider\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.0_2745709e2fe5be73cb443981db97867a46cf6ed1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="G:\GIT\CleanWaterSpider\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="G:\GIT\CleanWaterSpider\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.0_9450e4c2669fe49191199f32758bb96afb2a0575\classes.dex" />
     </item>
     <item
         is-multidex="true"

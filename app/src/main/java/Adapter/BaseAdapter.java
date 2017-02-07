@@ -51,7 +51,6 @@ public class BaseAdapter extends RecyclerViewBaseAdapter<BaseBean> {
     }
 
 
-
     @Override
     public View createView(ViewGroup viewGroup, int i) {
         context = viewGroup.getContext();

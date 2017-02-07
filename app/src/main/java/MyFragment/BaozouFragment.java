@@ -57,7 +57,7 @@ public class BaozouFragment extends Fragment implements BGARefreshLayout.BGARefr
     private BaseAdapter adapter;
     private Retrofit retrofit;
 
-    private static final String BASE_URL="https://api.bmob.cn/";
+    private static final String BASE_URL="http://dailyapi.ibaozou.com/";
     private WebService service;
     private String tableName;
     private int timeStamp;//时间戳
