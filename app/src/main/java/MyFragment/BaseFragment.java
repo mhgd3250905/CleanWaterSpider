@@ -18,7 +18,7 @@ import java.util.List;
 import Adapter.BaseAdapter;
 import Adapter.RecyclerViewBaseAdapter;
 import DataBean.BaseBean;
-import DataBean.BaseGsonBean;
+import DataBean.NewsBean;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import cn.bingoogolapple.refreshlayout.BGANormalRefreshViewHolder;
@@ -57,7 +57,7 @@ public class BaseFragment extends Fragment implements BGARefreshLayout.BGARefres
     private BaseAdapter adapter;
     private Retrofit retrofit;
 
-    private static final String BASE_URL="https://api.bmob.cn/";
+    private static final String BASE_URL="http://www.ixiaobai.xyz/";
     private WebService service;
     private String tableName;
     private int limit=20;
@@ -186,25 +186,22 @@ public class BaseFragment extends Fragment implements BGARefreshLayout.BGARefres
     }
 
     public void insertHXData(WebService service) {
-        service.getHXGsonData(tableName,limit+"",page*skip+"","-createdAt")
+        service.getIXiaobaiData(tableName,page)
                 .subscribeOn(Schedulers.io())
-                .map(new Func1<BaseGsonBean, List<BaseBean>>() {
+                .map(new Func1<NewsBean, List<BaseBean>>() {
                     @Override
-                    public List<BaseBean> call(BaseGsonBean baseGsonBean) {
-
-                        List<BaseGsonBean.ResultsBean> results = baseGsonBean.getResults();
-                        List<BaseBean> responses=new ArrayList<BaseBean>();
-                        for (BaseGsonBean.ResultsBean resultsBean:results){
-
-//                            LogUtils.Log(resultsBean.getTitle());
-
-                            BaseBean baseBean =new BaseBean();
-                            baseBean.setTitle(resultsBean.getTitle());
-                            baseBean.setImgSrc(resultsBean.getImgUrl());
-                            baseBean.setContentURL(resultsBean.getContentUrl());
-                            responses.add(baseBean);
+                    public List<BaseBean> call(NewsBean newsBean) {
+                        List<BaseBean> dataList=new ArrayList<>();
+                        if (newsBean.getError()==0){
+                            for (int i = 0; i < newsBean.getNews().size(); i++) {
+                                BaseBean item=new BaseBean();
+                                item.setTitle(newsBean.getNews().get(i).getPayload().getTitle());
+                                item.setContentURL(newsBean.getNews().get(i).getPayload().getUrl());
+                                item.setImgSrc(newsBean.getNews().get(i).getPayload().getImgSrc());
+                                dataList.add(item);
+                            }
                         }
-                        return responses;
+                        return dataList;
                     }
                 })
                 .observeOn(AndroidSchedulers.mainThread())
@@ -225,9 +222,9 @@ public class BaseFragment extends Fragment implements BGARefreshLayout.BGARefres
                     }
 
                     @Override
-                    public void onNext(List<BaseBean> huXiuList) {
+                    public void onNext(List<BaseBean> newsList) {
 //                        LogUtils.Log(huXiuList.size()+"");
-                        adapter.append(huXiuList);
+                        adapter.append(newsList);
                     }
                 });
     }

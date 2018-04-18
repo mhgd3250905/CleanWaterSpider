@@ -17,6 +17,8 @@ public class BaseBean extends BmobObject {
     public String imgSrc;
 
 
+
+
     public String getContentURL() {
         return contentURL;
     }
