@@ -2,7 +2,7 @@ package MyFragment;
 
 import DataBean.BaozouGsonBean;
 import DataBean.BaozouVideoGsonBean;
-import DataBean.NewsBean;
+import DataBean.NewsGsonBean;
 import retrofit2.http.GET;
 import retrofit2.http.Path;
 import retrofit2.http.Query;
@@ -48,6 +48,6 @@ public interface WebService {
 
     //获取服务器数据
     @GET("api/v1/spider/{type}/{index}")
-    Observable<NewsBean> getIXiaobaiData(@Path("type")String type,@Path("index")int index);
+    Observable<NewsGsonBean> getIXiaobaiData(@Path("type")String type, @Path("index")int index);
 
 }

@@ -18,7 +18,7 @@ import java.util.List;
 import Adapter.BaseAdapter;
 import Adapter.RecyclerViewBaseAdapter;
 import DataBean.BaseBean;
-import DataBean.NewsBean;
+import DataBean.NewsGsonBean;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import cn.bingoogolapple.refreshlayout.BGANormalRefreshViewHolder;
@@ -33,7 +33,7 @@ import rx.android.schedulers.AndroidSchedulers;
 import rx.functions.Func1;
 import rx.schedulers.Schedulers;
 import skkk.cleanwaterinformation.R;
-import skkk.cleanwaterinformation.WebActivity;
+import skkk.cleanwaterinformation.WebContentActivity;
 
 /**
  * Created by admin on 2016/11/21.
@@ -46,6 +46,8 @@ import skkk.cleanwaterinformation.WebActivity;
 */
 @SuppressLint("ValidFragment")
 public class BaseFragment extends Fragment implements BGARefreshLayout.BGARefreshLayoutDelegate{
+    private static final String TAG = "BaseFragment";
+
     @Bind(R.id.rv_huxiu)
     RecyclerView rvData;
     @Bind(R.id.rv_refresh)
@@ -170,11 +172,18 @@ public class BaseFragment extends Fragment implements BGARefreshLayout.BGARefres
         adapter.setOnItemClickLitener(new RecyclerViewBaseAdapter.OnItemClickLitener() {
             @Override
             public void onItemClick(View view, int position) {
+//                Intent itemIntent=new Intent();
+//                itemIntent.putExtra("url",mDataList.get(position).getContentURL());
+//                itemIntent.putExtra("title",mDataList.get(position).getTitle()
+//                        .replace("\uE40B"," ").replace("\uE40A"," "));
+//                itemIntent.setClass(getContext(), WebActivity.class);
+//                startActivity(itemIntent);
+
                 Intent itemIntent=new Intent();
-                itemIntent.putExtra("url",mDataList.get(position).getContentURL());
+                itemIntent.putExtra("content",mDataList.get(position).getContent());
                 itemIntent.putExtra("title",mDataList.get(position).getTitle()
                         .replace("\uE40B"," ").replace("\uE40A"," "));
-                itemIntent.setClass(getContext(), WebActivity.class);
+                itemIntent.setClass(getContext(), WebContentActivity.class);
                 startActivity(itemIntent);
             }
 
@@ -186,11 +195,31 @@ public class BaseFragment extends Fragment implements BGARefreshLayout.BGARefres
     }
 
     public void insertHXData(WebService service) {
+//        service.getIXiaobaiData(tableName,page)
+//                .subscribeOn(Schedulers.io())
+//                .observeOn(AndroidSchedulers.mainThread())
+//                .subscribe(new Observer<String>() {
+//                    @Override
+//                    public void onCompleted() {
+//
+//                    }
+//
+//                    @Override
+//                    public void onError(Throwable e) {
+//
+//                    }
+//
+//                    @Override
+//                    public void onNext(String s) {
+//                        Log.d(TAG, "onNext() called with: s = [" + s + "]");
+//                    }
+//                });
+
         service.getIXiaobaiData(tableName,page)
                 .subscribeOn(Schedulers.io())
-                .map(new Func1<NewsBean, List<BaseBean>>() {
+                .map(new Func1<NewsGsonBean, List<BaseBean>>() {
                     @Override
-                    public List<BaseBean> call(NewsBean newsBean) {
+                    public List<BaseBean> call(NewsGsonBean newsBean) {
                         List<BaseBean> dataList=new ArrayList<>();
                         if (newsBean.getError()==0){
                             for (int i = 0; i < newsBean.getNews().size(); i++) {
@@ -198,6 +227,7 @@ public class BaseFragment extends Fragment implements BGARefreshLayout.BGARefres
                                 item.setTitle(newsBean.getNews().get(i).getPayload().getTitle());
                                 item.setContentURL(newsBean.getNews().get(i).getPayload().getUrl());
                                 item.setImgSrc(newsBean.getNews().get(i).getPayload().getImgSrc());
+                                item.setContent(newsBean.getNews().get(i).getPayload().getContent());
                                 dataList.add(item);
                             }
                         }

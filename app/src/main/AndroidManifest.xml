@@ -21,18 +21,20 @@
             android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
             android:name=".WebActivity"
             android:theme="@style/AppTheme" />
-        <activity android:name=".MainActivity"
-            android:theme="@style/AppTheme">
-        </activity>
-        <activity android:name=".WebVideoActivity"
-            android:theme="@style/AppTheme">
-        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".WebVideoActivity"
+            android:theme="@style/AppTheme"></activity>
+        <activity android:name=".WebContentActivity"></activity>
     </application>
 
 </manifest>

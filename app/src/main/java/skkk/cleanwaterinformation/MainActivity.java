@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity
 //        fragmentList.add(new BaseFragment("WeixinBean"));
         fragmentList.add(new BaozouVideoFragment());
         fragmentList.add(new BaozouFragment());
-        fragmentList.add(new BaseFragment("huxiu"));
+        fragmentList.add(new BaseFragment("huxiuDetail"));
         fragmentList.add(new BaseFragment("ke36"));
         fragmentList.add(new BaseFragment("chule"));
         fragmentList.add(new BaseFragment("ifan"));

@@ -12,4 +12,5 @@
     <item name="rv_refresh" type="id">刷新</item>
     <item name="tb_webViedo" type="id" />
     <item name="vv_webViedo" type="id" />
+    <item name="wv_content" type="id">wv_content</item>
 </resources>

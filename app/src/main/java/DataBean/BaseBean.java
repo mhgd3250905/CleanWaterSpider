@@ -15,6 +15,7 @@ public class BaseBean extends BmobObject {
     public String title;
     public String contentURL;
     public String imgSrc;
+    public String content;
 
 
 
@@ -41,5 +42,13 @@ public class BaseBean extends BmobObject {
 
     public void setTitle(String title) {
         this.title = title;
+    }
+
+    public String getContent() {
+        return content;
+    }
+
+    public void setContent(String content) {
+        this.content = content;
     }
 }
